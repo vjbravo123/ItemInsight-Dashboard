@@ -1,0 +1,90 @@
+/* interaction.css */
+
+.interaction-container {
+   
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sub-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.rating-container {
+    margin-bottom: 20px;
+}
+
+.stars {
+    display: flex;
+    gap: 5px;
+}
+
+.star {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star-filled {
+    color: #f39c12;
+}
+
+.comment-container {
+    margin-bottom: 20px;
+}
+
+.comment-container textarea {
+    width: 100%;
+    height: 100px;
+
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+.error-message {
+    color: #dc3545;
+}
+
+.comments-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.rating {
+    margin-top: 5px;
+}
+
+.rating .star-filled {
+    display: inline-block;
+    color: #f39c12;
+}

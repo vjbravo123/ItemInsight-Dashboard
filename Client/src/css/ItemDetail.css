@@ -1,0 +1,86 @@
+/* ItemDetail.css */
+.item-detail-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-detail-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.item-detail-image img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.item-detail-info {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.item-detail-description {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.item-detail-details {
+    margin-bottom: 20px;
+}
+
+.item-detail-price {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.item-detail-rating {
+    margin-bottom: 20px;
+}
+
+.star-filled {
+    color: gold;
+}
+
+.star {
+    color: #ccc;
+}
+
+/* Interaction.css */
+.interaction-container {
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.rating-container {
+    margin-bottom: 20px;
+}
+
+.comment-container {
+    margin-bottom: 20px;
+}
+
+.comments-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comments-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.comments-list p {
+    margin: 5px 0;
+}
